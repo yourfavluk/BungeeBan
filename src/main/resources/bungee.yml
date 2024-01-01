@@ -1,0 +1,11 @@
+name: Ban
+version: '${project.version}'
+main: de.lukasdev.ban.Ban
+
+commands:
+  kick:
+    permission: bungeesystem.ban.kick
+  ban:
+    permission: bungeesystem.ban.ban
+  tempban:
+    permission: bungeesystem.ban.tempban
